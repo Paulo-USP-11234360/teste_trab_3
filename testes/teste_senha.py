@@ -8,7 +8,7 @@ def test_verificar_senha():
     incorrect_user_password= "senha"
     
     # Testa se a função check_password retorna True para a senha correta
-    assert check_password(user_password, stored_hashed_password) is True, "A senha correta deveria ser validada"
+    assert check_password(correct_user_password, stored_hashed_password) is True, "A senha correta deveria ser validada"
     
     # Testa se a função check_password retorna False para uma senha incorreta
     assert check_password(incorrect_user_password, stored_hashed_password) is False, "A senha incorreta deveria falhar"
