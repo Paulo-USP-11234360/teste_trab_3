@@ -36,15 +36,15 @@ if __name__ == "__main__":
     input_password = 'senha123'
 
     #Conferindo as senhas obtidas
-    print(f"Senha contida no arquivo password.txt: {stored_password}")
-    print(f"Senha contida no arquivo encryptedPassword.txt: {stored_hashed_password}")
-    print(f"Senha inputada pelo usuario: {input_password}")
+    # print(f"Senha contida no arquivo password.txt: {stored_password}")
+    # print(f"Senha contida no arquivo encryptedPassword.txt: {stored_hashed_password}")
+    # print(f"Senha inputada pelo usuario: {input_password}")
 
-    #Conferindo a senha fornecida pelo usuario e a contida no arquivo txt
-    if check_password(input_password,stored_hashed_password):
-      print("Senha Correta!")
-    else:
-      print("Senha Incorreta!")
-      sys.exit(1)
+    # #Conferindo a senha fornecida pelo usuario e a contida no arquivo txt
+    # if check_password(input_password,stored_hashed_password):
+    #   print("Senha Correta!")
+    # else:
+    #   print("Senha Incorreta!")
+    #   sys.exit(1)
 
 
