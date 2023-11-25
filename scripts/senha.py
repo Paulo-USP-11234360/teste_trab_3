@@ -33,7 +33,7 @@ if __name__ == "__main__":
 
     
     #Input da senha pelo usuario
-    input_password = 'senha12'
+    input_password = 'senha123'
 
     #Conferindo as senhas obtidas
     print(f"Senha contida no arquivo password.txt: {stored_password}")
